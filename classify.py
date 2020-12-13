@@ -10,7 +10,7 @@ non_sarcasm_tokens = {}
 total_sarcasm_tokens = 0
 total_non_sarcasm_tokens = 0
 
-smoothing_parameter = 0.0000001
+smoothing_parameter = 0.2
 pos_prior = 0.78
 
 response_list = []
