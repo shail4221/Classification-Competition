@@ -11,7 +11,7 @@ total_sarcasm_tokens = 0
 total_non_sarcasm_tokens = 0
 
 smoothing_parameter = 0.17
-pos_prior = 0.7
+pos_prior = 0.8
 
 response_list = []
 
