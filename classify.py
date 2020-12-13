@@ -74,12 +74,14 @@ NO = "NOT_SARCASM"
 
 output_file = open("answer.txt", "w")
 
-for i in range(1, num_of_output):
+for i in range(0, num_of_output):
     if (classified[i] == 1):
-        output = "twitter_" + str(i) + "," + str(YES) + "\n"
+        output = "twitter_" + str(i+1) + "," + str(YES) + "\n"
     else:
-        output = "twitter_" + str(i) + "," + str(NO) + "\n"
+        output = "twitter_" + str(i+1) + "," + str(NO) + "\n"
 
     output_file.write(output)
+
+#output = "twitter_" + str(num_of_output) + "," + str(YES)
 
 output_file.close()
